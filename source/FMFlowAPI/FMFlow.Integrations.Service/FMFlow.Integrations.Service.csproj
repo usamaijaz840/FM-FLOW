@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azure.Identity" Version="1.14.2" />
+		<PackageReference Include="Microsoft.Graph" Version="5.79.0" />
+		<PackageReference Include="FluentValidation" Version="12.0.0" />
+		<PackageReference Include="Mindfire.EFRepository" Version="2.5.0" />
+		<PackageReference Include="Riok.Mapperly" Version="4.2.1" />
+		<PackageReference Include="CsvHelper" Version="33.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Data\mock-addresses.csv">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<InternalsVisibleTo Include="FMFlow.UnitTest" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\FMFlow.Data\FMFlow.Data.csproj" />
+		<ProjectReference Include="..\FMFlow.Integrations.Interface\FMFlow.Integrations.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Identity\FMFlow.Identity.Interface.csproj" />
+	</ItemGroup>
+
+</Project>

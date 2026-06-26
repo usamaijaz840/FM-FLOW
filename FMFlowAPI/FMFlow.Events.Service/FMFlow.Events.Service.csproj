@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Mindfire.EFRepository" Version="2.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMFlow.AccessValidation\FMFlow.AccessValidation.csproj" />
+    <ProjectReference Include="..\FMFlow.Common\FMFlow.Common.csproj" />
+    <ProjectReference Include="..\FMFlow.Events.Interface\FMFlow.Events.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.FlowAPI.Interface\FMFlow.FlowAPI.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Identity\FMFlow.Identity.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Integrations.Interface\FMFlow.Integrations.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Projects.Service\FMFlow.Projects.Service.csproj" />
+    <ProjectReference Include="..\FMFlow.ProUser\FMFlow.ProUser.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

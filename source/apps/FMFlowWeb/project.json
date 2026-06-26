@@ -1,0 +1,73 @@
+{
+    "targets": {
+      "typecheck": {
+        "executor": "@nx/js:tsc",
+        "options": {
+          "tsConfig": "apps/FMFlowWeb/tsconfig.json",
+          "main": "apps/FMFlowWeb/src/main.tsx",
+          "outputPath": "dist/apps/FMFlowWeb/tsc",
+          "noEmit": true,
+          "pretty": false
+        }
+      },
+      "typecheck-stories": {
+        "executor": "@nx/js:tsc",
+        "options": {
+          "tsConfig": "apps/FMFlowWeb/tsconfig.stories.json",
+          "main": "apps/FMFlowWeb/src/main.tsx",
+          "outputPath": "dist/apps/FMFlowWeb/tsc-stories",
+          "noEmit": true,
+          "pretty": false
+        }
+      },
+      "serve": {
+        "executor": "@nx/vite:dev-server",
+        "options": {
+          "configFile": "apps/FMFlowWeb/vite.config.ts",
+          "mode": "development",
+          "port": 3000,
+          "host": true,
+          "buildTarget": "fmflowweb:build"
+        }
+      },
+      "build": {
+        "executor": "@nx/vite:build",
+        "options": {
+          "configFile": "apps/FMFlowWeb/vite.config.ts",
+          "mode": "production",
+          "outputPath": "dist/apps/FMFlowWeb"
+        }
+      },
+      "preview": {
+        "executor": "@nx/vite:preview-server",
+        "options": {
+          "configFile": "apps/FMFlowWeb/vite.config.ts",
+          "port": 3000,
+          "buildTarget": "fmflowweb:build"
+        }
+      },
+      "lint": {
+        "executor": "@nx/eslint:lint",
+        "options": {
+          "lintFilePatterns": [
+            "apps/FMFlowWeb/**/*.{ts,tsx,js,jsx}"
+          ]
+        }
+      },
+      "storybook": {
+        "executor": "@nx/storybook:storybook",
+        "options": {
+          "configDir": "apps/FMFlowWeb/.storybook",
+          "port": 6006
+        }
+      },
+      "build-storybook": {
+        "executor": "@nx/storybook:build",
+        "options": {
+          "configDir": "apps/FMFlowWeb/.storybook",
+          "outputDir": "dist/storybook/FMFlowWeb"
+        }
+      }
+    }
+  }
+  

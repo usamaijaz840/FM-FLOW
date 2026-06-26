@@ -1,0 +1,6 @@
+services:
+  fmflowapi:
+    image: ${DOCKER_REGISTRY-}fmflowapi
+    build:
+      context: .
+      dockerfile: FMFlowAPI/FMFlowAPI/Dockerfile

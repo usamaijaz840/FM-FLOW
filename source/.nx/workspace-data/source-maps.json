@@ -1,0 +1,1836 @@
+{
+  "apps/FMFlowWeb": {
+    "root": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.cache": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.inputs": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.outputs": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.executor": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.cwd": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.options.command": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.technologies.0": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.description": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.command": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.eslint:lint.metadata.help.example": [
+      "apps/FMFlowWeb/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "projectType": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.outputs": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.executor": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.command": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.cache": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.dependsOn": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.inputs": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.outputs": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.executor": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.cwd": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.command": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies.0": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.description": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.command": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.example": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.continuous": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.executor": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.cwd": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.command": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies.0": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.description": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.command": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.example": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.deprecated": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.continuous": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.executor": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.command": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies.0": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.description": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.command": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.example": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.continuous": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.dependsOn": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.options": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.executor": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.options.cwd": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.options.command": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.technologies": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.technologies.0": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.description": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.help": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.help.command": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.help.example": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.continuous": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.cache": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.inputs": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.options": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.executor": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.options.cwd": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.options.command": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.description": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.technologies": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.technologies.0": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.help": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.help.command": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.help.example": [
+      "apps/FMFlowWeb/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies.1": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.technologies.1": [
+      "apps/FMFlowWeb/vitest.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "metadata.targetGroups": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI)": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).0": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).1": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).2": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).3": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.parallelism": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.cache": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.inputs": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.outputs": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.executor": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.cwd": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.command": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies.0": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.description": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.command": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.example": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.options": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.metadata": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.parallelism": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.cache": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.inputs": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.outputs": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.executor": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.options.cwd": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.options.env": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.options.command": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.metadata.technologies": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.metadata.technologies.0": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.metadata.description": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.metadata.help": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.metadata.help.command": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/login-redirect.spec.ts.metadata.help.example": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.options": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.metadata": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.parallelism": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.cache": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.inputs": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.outputs": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.executor": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.options.cwd": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.options.env": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.options.command": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.metadata.technologies": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.metadata.technologies.0": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.metadata.description": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.metadata.help": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.metadata.help.command": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--tests/e2e/onboarding.spec.ts.metadata.help.example": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.executor": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.cache": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.inputs": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.outputs": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.dependsOn": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.parallelism": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies.0": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.description": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.nonAtomizedTarget": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.command": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.example": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.executor": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.cache": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.inputs": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.outputs": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.options": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.metadata": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.options.config": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.options.expectedSuites": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.metadata.technologies": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.metadata.technologies.0": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.metadata.description": [
+      "apps/FMFlowWeb/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "name": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.executor": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.tsConfig": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.main": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.outputPath": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.noEmit": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck.options.pretty": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck-stories": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck-stories.executor": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck-stories.options": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck-stories.options.tsConfig": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck-stories.options.main": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck-stories.options.outputPath": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck-stories.options.noEmit": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.typecheck-stories.options.pretty": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.configFile": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.mode": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.host": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.configFile": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.mode": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.preview": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.preview.executor": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.preview.options": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.preview.options.configFile": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.preview.options.port": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.preview.options.buildTarget": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.executor": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options.configDir": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options.port": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.executor": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.options": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.options.configDir": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-storybook.options.outputDir": [
+      "apps/FMFlowWeb/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck-stories.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck-stories.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck-stories.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.typecheck-stories.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.storybook.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.storybook.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.storybook.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build-storybook.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build-storybook.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build-storybook.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/referral-flow": {
+    "root": [
+      "apps/referral-flow/package.json",
+      "nx/core/package-json"
+    ],
+    "projectType": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.outputs": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.executor": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.cache": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.dependsOn": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.inputs": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.outputs": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.executor": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.cwd": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.options.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.technologies.0": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.description": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:build.metadata.help.example": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.continuous": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.executor": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.cwd": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.options.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.technologies.0": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.description": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.help.example": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:serve.metadata.deprecated": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.continuous": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.executor": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies.0": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.description": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.example": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.continuous": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.dependsOn": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.options": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.executor": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.options.cwd": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.options.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.technologies": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.technologies.0": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.description": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.help": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.help.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:preview.metadata.help.example": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.continuous": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.cache": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.inputs": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.options": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.executor": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.options.cwd": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.options.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.description": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.technologies": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.technologies.0": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.help": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.help.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.vite:typecheck.metadata.help.example": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.continuous": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/referral-flow/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "name": [
+      "apps/referral-flow/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/referral-flow/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/referral-flow/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/referral-flow/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/referral-flow/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/referral-flow/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "apps/referral-flow/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/referral-flow/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/referral-flow-e2e": {
+    "root": [
+      "apps/referral-flow-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI)": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).0": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).1": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).2": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.dependsOn": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.cache": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.inputs": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.outputs": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.executor": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.cwd": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.command": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies.0": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.description": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.command": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.example": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.dependsOn": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.cache": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.inputs": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.outputs": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.executor": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.cwd": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.env": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.command": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies.0": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.description": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.command": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.example": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.executor": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.cache": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.inputs": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.outputs": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.dependsOn": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies.0": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.description": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.nonAtomizedTarget": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.command": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.example": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.executor": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.cache": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.inputs": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.outputs": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.options": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.metadata": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.options.config": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.options.expectedSuites": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.metadata.technologies": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.metadata.technologies.0": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--merge-reports.metadata.description": [
+      "apps/referral-flow-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "name": [
+      "apps/referral-flow-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "apps/referral-flow-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "apps/referral-flow-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "implicitDependencies": [
+      "apps/referral-flow-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "implicitDependencies.@fm-flow/referral-flow": [
+      "apps/referral-flow-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/referral-flow-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/referral-flow-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "apps/referral-flow-e2e/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/referral-flow-e2e/package.json",
+      "nx/core/package-json"
+    ]
+  }
+}

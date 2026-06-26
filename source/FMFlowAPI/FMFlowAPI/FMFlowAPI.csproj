@@ -1,0 +1,104 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>aspnet-FMFlowAPI-3388fa50-2075-49ca-a5e1-c610e60eae25</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\FMFlowAPI.xml</DocumentationFile>
+		<DockerfileContext>..\..</DockerfileContext>
+		<DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
+	</PropertyGroup>
+	<ItemGroup>
+		<Compile Remove="Data\**" />
+		<Content Remove="Data\**" />
+		<EmbeddedResource Remove="Data\**" />
+		<None Remove="Data\**" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Aspire.Npgsql" Version="9.5.1" />
+		<PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.5.1" />
+		<PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="9.0.0" />
+		<PackageReference Include="AWSSDK.S3" Version="4.0.0.6" />
+		<PackageReference Include="Azure.Identity" Version="1.14.2" />
+		<PackageReference Include="FirebaseAdmin" Version="3.4.0" />
+		<PackageReference Include="FluentValidation" Version="12.0.0" />
+		<PackageReference Include="Keycloak.AuthServices.Authentication" Version="2.7.0" />
+		<PackageReference Include="Keycloak.AuthServices.Authorization" Version="2.7.0" />
+		<PackageReference Include="Magick.NET-Q16-AnyCPU" Version="14.9.1" />
+		<PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.5" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.5" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.10" />		
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.2" />
+		<PackageReference Include="Mindfire.EFRepository" Version="2.5.0" />
+		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+		<PackageReference Include="Riok.Mapperly" Version="4.2.1" />
+		<PackageReference Include="Serilog" Version="4.3.0" />
+		<PackageReference Include="Serilog.Extensions.Hosting" Version="9.0.0" />
+		<PackageReference Include="Serilog.Extensions.Logging" Version="9.0.1" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+		<PackageReference Include="Refit" Version="8.0.0" />
+		<PackageReference Include="Refit.HttpClientFactory" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Aspire\FMFlow.ServiceDefaults\FMFlow.ServiceDefaults.csproj" />
+		<ProjectReference Include="..\FMFlow.Customers.Interface\FMFlow.Customers.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Customers.Service\FMFlow.Customers.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Events.Interface\FMFlow.Events.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Events.Service\FMFlow.Events.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Integrations.Firebase\FMFlow.Integrations.Firebase.csproj" />
+		<ProjectReference Include="..\FMFlow.LeadTimelines.Interface\FMFlow.LeadTimelines.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Pro.Service\FMFlow.Pro.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Admin.Service\FMFlow.Admin.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Admin\FMFlow.Admin.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Common\FMFlow.Common.csproj" />
+		<ProjectReference Include="..\FMFlow.Data\FMFlow.Data.csproj" />
+		<ProjectReference Include="..\FMFlow.Email.Interface\FMFlow.Email.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Email.Service\FMFlow.Email.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Employees.Interface\FMFlow.Employees.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Employees.Service\FMFlow.Employees.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Estimates.Interface\FMFlow.Estimates.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Estimates.Service\FMFlow.Estimates.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Files.Interface\FMFlow.Files.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Files.Service\FMFlow.Files.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.FlowAPI.Interface\FMFlow.FlowAPI.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Identity.Service\FMFlow.Identity.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Identity\FMFlow.Identity.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Leads.Interface\FMFlow.Leads.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Leads.Service\FMFlow.Leads.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Login.Service\FMFlow.Login.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Login\FMFlow.Login.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Payment.Service\FMFlow.ProPayments.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Payment\FMFlow.ProPayments.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Pro.Interface\FMFlow.Pro.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Projects.Interface\FMFlow.Projects.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Projects.Service\FMFlow.Projects.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.ProUser.Service\FMFlow.ProUser.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.ProUser\FMFlow.ProUser.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Referral\FMFlow.Referral.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Integrations.Interface\FMFlow.Integrations.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Integrations.Service\FMFlow.Integrations.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.SMS.Service\FMFlow.SMS.Service.csproj" />
+		<ProjectReference Include="..\FMFlow.Transactions.Interface\FMFlow.Transactions.Interface.csproj" />
+		<ProjectReference Include="..\FMFlow.Transactions.Service\FMFlow.Transactions.Service.csproj" />
+	</ItemGroup>
+
+</Project>

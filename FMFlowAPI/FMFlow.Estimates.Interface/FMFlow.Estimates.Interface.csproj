@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMFlow.Common\FMFlow.Common.csproj" />
+    <ProjectReference Include="..\FMFlow.Entities\FMFlow.Entities.csproj" />
+    <ProjectReference Include="..\FMFlow.Files.Interface\FMFlow.Files.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.FlowAPI.Interface\FMFlow.FlowAPI.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Identity\FMFlow.Identity.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

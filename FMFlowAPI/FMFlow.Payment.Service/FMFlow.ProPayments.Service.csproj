@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.10" />
+    <PackageReference Include="Mindfire.EFRepository" Version="2.5.0" />
+    <PackageReference Include="Riok.Mapperly" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMFlow.Entities\FMFlow.Entities.csproj" />
+    <ProjectReference Include="..\FMFlow.Integrations.MxMerchant.Interface\FMFlow.Integrations.MxMerchant.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Payment\FMFlow.ProPayments.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.ProUser.Service\FMFlow.ProUser.Service.csproj" />
+    <ProjectReference Include="..\FMFlow.ProUser\FMFlow.ProUser.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

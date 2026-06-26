@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build FMFlowWeb --skip-nx-cache",
+    "startTime": "2026-01-05T11:29:59.603Z",
+    "endTime": "2026-01-05T11:30:40.663Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "fmflowweb:build",
+      "target": "build",
+      "projectName": "fmflowweb",
+      "hash": "2651263199121711563",
+      "startTime": "2026-01-05T11:29:59.640Z",
+      "endTime": "2026-01-05T11:30:40.642Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

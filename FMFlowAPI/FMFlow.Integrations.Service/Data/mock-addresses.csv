@@ -1,0 +1,481 @@
+PlaceId,Address,City,State,Zip
+mock_place_1,123 Main St,San Francisco,CA,94102
+mock_place_2,123 Oak Ave,Los Angeles,CA,90001
+mock_place_3,123 Pine Rd,Austin,TX,78701
+mock_place_4,123 Elm Blvd,Boston,MA,02101
+mock_place_5,123 Maple Dr,Denver,CO,80202
+mock_place_6,234 Cedar Ln,Portland,OR,97201
+mock_place_7,234 Birch St,Seattle,WA,98101
+mock_place_8,234 Spruce Ave,Miami,FL,33101
+mock_place_9,234 Willow Ct,Phoenix,AZ,85001
+mock_place_10,234 Ash Pkwy,New York,NY,10001
+mock_place_11,345 Walnut Way,Chicago,IL,60601
+mock_place_12,345 Cherry Cir,Atlanta,GA,30301
+mock_place_13,345 Redwood Rd,Houston,TX,77001
+mock_place_14,345 Hickory Ln,Las Vegas,NV,89101
+mock_place_15,345 Poplar Pl,Philadelphia,PA,19101
+mock_place_16,456 Sycamore St,Dallas,TX,75201
+mock_place_17,456 Magnolia Dr,Minneapolis,MN,55401
+mock_place_18,456 Juniper Ave,Nashville,TN,37201
+mock_place_19,456 Aspen Blvd,Salt Lake City,UT,84101
+mock_place_20,456 Cottonwood Ct,San Diego,CA,92101
+mock_place_21,567 Beech Rd,Sacramento,CA,95814
+mock_place_22,567 Fir St,San Jose,CA,95113
+mock_place_23,567 Dogwood Dr,Provo,UT,84601
+mock_place_24,567 Laurel Ln,Orem,UT,84057
+mock_place_25,567 Sequoia Ave,West Valley City,UT,84119
+mock_place_26,678 Cypress Cir,Detroit,MI,48201
+mock_place_27,678 Hawthorn Way,Columbus,OH,43201
+mock_place_28,678 Ironwood Pl,Charlotte,NC,28201
+mock_place_29,678 Linden Ct,Milwaukee,WI,53201
+mock_place_30,678 Mesquite Blvd,Kansas City,MO,64101
+mock_place_31,789 Alder St,Baltimore,MD,21201
+mock_place_32,789 Basswood Ave,Louisville,KY,40201
+mock_place_33,789 Chestnut Dr,Memphis,TN,38101
+mock_place_34,789 Hickory Rd,Oklahoma City,OK,73101
+mock_place_35,789 Pecan Ln,Albuquerque,NM,87101
+mock_place_36,890 Willow Way,Jacksonville,FL,32099
+mock_place_37,890 Cedar Cir,Indianapolis,IN,46201
+mock_place_38,890 Pine Pl,San Antonio,TX,78201
+mock_place_39,890 Spruce Ct,Tucson,AZ,85701
+mock_place_40,890 Oak Blvd,Fresno,CA,93701
+mock_place_41,100 Broadway,Seattle,WA,98122
+mock_place_42,100 State St,Madison,WI,53703
+mock_place_43,100 Market St,Portland,OR,97201
+mock_place_44,100 Congress Ave,Austin,TX,78701
+mock_place_45,100 Peachtree St,Atlanta,GA,30303
+mock_place_46,200 Park Ave,New York,NY,10166
+mock_place_47,200 Main St,Hartford,CT,06103
+mock_place_48,200 S Michigan Ave,Chicago,IL,60604
+mock_place_49,200 1st Ave,Pittsburgh,PA,15222
+mock_place_50,200 W Washington St,Phoenix,AZ,85003
+mock_place_51,111 Elm St,Raleigh,NC,27601
+mock_place_52,111 Pine St,Burlington,VT,05401
+mock_place_53,111 Oak Dr,Richmond,VA,23219
+mock_place_54,111 Maple Ave,Des Moines,IA,50309
+mock_place_55,111 Cedar Ln,Boise,ID,83702
+mock_place_56,1000 Broadway,Denver,CO,80203
+mock_place_57,1000 Woodward Ave,Detroit,MI,48226
+mock_place_58,1000 Main St,Kansas City,MO,64105
+mock_place_59,1000 Louisiana St,Houston,TX,77002
+mock_place_60,1000 N Water St,Milwaukee,WI,53202
+mock_place_61,1234 Market St,San Francisco,CA,94102
+mock_place_62,1234 Wilshire Blvd,Los Angeles,CA,90017
+mock_place_63,1234 N Clark St,Chicago,IL,60610
+mock_place_64,1234 Broadway,Nashville,TN,37203
+mock_place_65,1234 Ocean Ave,Santa Monica,CA,90401
+mock_place_66,222 Front St,Philadelphia,PA,19106
+mock_place_67,222 E Main St,Columbus,OH,43215
+mock_place_68,222 Central Ave,Albuquerque,NM,87102
+mock_place_69,222 Broadway,Cambridge,MA,02139
+mock_place_70,222 W Adams St,Chicago,IL,60606
+mock_place_71,333 Washington St,Boston,MA,02108
+mock_place_72,333 Mission St,San Francisco,CA,94105
+mock_place_73,333 Congress St,Portland,ME,04101
+mock_place_74,333 Collins Ave,Miami Beach,FL,33139
+mock_place_75,333 S Grand Ave,Los Angeles,CA,90071
+mock_place_76,444 N Michigan Ave,Chicago,IL,60611
+mock_place_77,444 Madison Ave,New York,NY,10022
+mock_place_78,444 Spear St,San Francisco,CA,94105
+mock_place_79,444 Castro St,Mountain View,CA,94041
+mock_place_80,444 Cedar St,St. Paul,MN,55101
+mock_place_81,555 California St,San Francisco,CA,94104
+mock_place_82,555 W 5th St,Los Angeles,CA,90013
+mock_place_83,555 17th St,Denver,CO,80202
+mock_place_84,555 E Main St,Lexington,KY,40507
+mock_place_85,555 N 12th St,Philadelphia,PA,19123
+mock_place_86,666 Broadway,New York,NY,10012
+mock_place_87,666 Euclid Ave,Cleveland,OH,44114
+mock_place_88,666 Market St,Tacoma,WA,98402
+mock_place_89,666 Michigan Ave,Detroit,MI,48226
+mock_place_90,666 Grant St,Pittsburgh,PA,15219
+mock_place_91,777 Main St,Fort Worth,TX,76102
+mock_place_92,777 S Figueroa St,Los Angeles,CA,90017
+mock_place_93,777 Mariners Island Blvd,San Mateo,CA,94404
+mock_place_94,777 Brickell Ave,Miami,FL,33131
+mock_place_95,777 E Wisconsin Ave,Milwaukee,WI,53202
+mock_place_96,888 Brannan St,San Francisco,CA,94103
+mock_place_97,888 7th Ave,New York,NY,10019
+mock_place_98,888 Boylston St,Boston,MA,02199
+mock_place_99,888 W Big Beaver Rd,Troy,MI,48084
+mock_place_100,888 SW 5th Ave,Portland,OR,97204
+mock_place_101,999 Peachtree St,Atlanta,GA,30309
+mock_place_102,999 W 3rd Ave,Spokane,WA,99201
+mock_place_103,999 Third Ave,Seattle,WA,98104
+mock_place_104,999 E St NW,Washington,DC,20004
+mock_place_105,999 N Capitol St,Indianapolis,IN,46204
+mock_place_106,101 Main St,Ann Arbor,MI,48104
+mock_place_107,101 California St,San Francisco,CA,94111
+mock_place_108,101 Park Ave,New York,NY,10178
+mock_place_109,101 Constitution Ave,Washington,DC,20001
+mock_place_110,101 Marietta St,Atlanta,GA,30303
+mock_place_111,201 E Main St,Richmond,VA,23219
+mock_place_112,201 Mission St,San Francisco,CA,94105
+mock_place_113,201 N Charles St,Baltimore,MD,21201
+mock_place_114,201 S Biscayne Blvd,Miami,FL,33131
+mock_place_115,201 Poplar Ave,Memphis,TN,38103
+mock_place_116,301 Congress Ave,Austin,TX,78701
+mock_place_117,301 Ravenswood Ave,Menlo Park,CA,94025
+mock_place_118,301 Howard St,San Francisco,CA,94105
+mock_place_119,301 E Ocean Blvd,Long Beach,CA,90802
+mock_place_120,301 W Main St,Durham,NC,27701
+mock_place_121,401 Broadway,New York,NY,10013
+mock_place_122,401 N Michigan Ave,Chicago,IL,60611
+mock_place_123,401 Wilshire Blvd,Santa Monica,CA,90401
+mock_place_124,401 E Las Olas Blvd,Fort Lauderdale,FL,33301
+mock_place_125,401 Park Dr,Boston,MA,02215
+mock_place_126,501 Congress Ave,Austin,TX,78701
+mock_place_127,501 Madison Ave,New York,NY,10022
+mock_place_128,501 Santa Monica Blvd,Santa Monica,CA,90401
+mock_place_129,501 Grant St,Pittsburgh,PA,15219
+mock_place_130,501 E Kennedy Blvd,Tampa,FL,33602
+mock_place_131,10 Main St,Cambridge,MA,02142
+mock_place_132,10 Broadway,New York,NY,10004
+mock_place_133,10 Market St,San Francisco,CA,94105
+mock_place_134,10 Congress St,Boston,MA,02210
+mock_place_135,10 Ocean Ave,Santa Monica,CA,90402
+mock_place_136,20 Park Ave,New York,NY,10016
+mock_place_137,20 Main St,Irvine,CA,92614
+mock_place_138,20 1st St,San Francisco,CA,94105
+mock_place_139,20 State St,Boston,MA,02109
+mock_place_140,20 Church St,Nashville,TN,37219
+mock_place_141,30 Rockefeller Plaza,New York,NY,10112
+mock_place_142,30 California St,San Francisco,CA,94111
+mock_place_143,30 Park Pl,Newark,NJ,07102
+mock_place_144,30 N LaSalle St,Chicago,IL,60602
+mock_place_145,30 E Broad St,Columbus,OH,43215
+mock_place_146,40 Wall St,New York,NY,10005
+mock_place_147,40 Water St,Boston,MA,02109
+mock_place_148,40 S Market St,San Jose,CA,95113
+mock_place_149,40 Broad St,Charleston,SC,29401
+mock_place_150,40 Monroe Ave,Memphis,TN,38103
+mock_place_151,50 Fremont St,San Francisco,CA,94105
+mock_place_152,50 Broadway,New York,NY,10004
+mock_place_153,50 Massachusetts Ave,Boston,MA,02115
+mock_place_154,50 Penn Pl,Oklahoma City,OK,73118
+mock_place_155,50 Public Square,Cleveland,OH,44113
+mock_place_156,1500 Broadway,New York,NY,10036
+mock_place_157,1500 Market St,Philadelphia,PA,19102
+mock_place_158,1500 Pennsylvania Ave,Washington,DC,20220
+mock_place_159,1500 N Lake Shore Dr,Chicago,IL,60610
+mock_place_160,1500 E Main St,Richmond,VA,23219
+mock_place_161,2500 Broadway,Santa Monica,CA,90404
+mock_place_162,2500 Wilshire Blvd,Los Angeles,CA,90057
+mock_place_163,2500 N Military Trl,Boca Raton,FL,33431
+mock_place_164,2500 Main St,Dallas,TX,75226
+mock_place_165,2500 University Dr,Coral Gables,FL,33134
+mock_place_166,3500 Peachtree Rd,Atlanta,GA,30326
+mock_place_167,3500 Las Vegas Blvd,Las Vegas,NV,89109
+mock_place_168,3500 Maple Ave,Dallas,TX,75219
+mock_place_169,3500 Riverdale Ave,Bronx,NY,10463
+mock_place_170,3500 W Peterson Ave,Chicago,IL,60659
+mock_place_171,4500 S Four Mile Run Dr,Arlington,VA,22204
+mock_place_172,4500 N Macarthur Blvd,Irving,TX,75038
+mock_place_173,4500 Magazine St,New Orleans,LA,70115
+mock_place_174,4500 Westown Pkwy,West Des Moines,IA,50266
+mock_place_175,4500 E Speedway Blvd,Tucson,AZ,85712
+mock_place_176,5500 Wayzata Blvd,Minneapolis,MN,55416
+mock_place_177,5500 Campanile Dr,San Diego,CA,92182
+mock_place_178,5500 Grossmont Center Dr,La Mesa,CA,91942
+mock_place_179,5500 Prytania St,New Orleans,LA,70115
+mock_place_180,5500 University Pkwy,Bradenton,FL,34201
+mock_place_181,1111 Constitution Ave,Washington,DC,20224
+mock_place_182,1111 Lincoln Rd,Miami Beach,FL,33139
+mock_place_183,1111 S Figueroa St,Los Angeles,CA,90015
+mock_place_184,1111 Polaris Pkwy,Columbus,OH,43240
+mock_place_185,1111 E Main St,League City,TX,77573
+mock_place_186,2222 Broadway,Oakland,CA,94612
+mock_place_187,2222 N Loop W,Houston,TX,77018
+mock_place_188,2222 S State St,Salt Lake City,UT,84115
+mock_place_189,2222 Kalakaua Ave,Honolulu,HI,96815
+mock_place_190,2222 Camino Ramon,San Ramon,CA,94583
+mock_place_191,3333 Bristol St,Costa Mesa,CA,92626
+mock_place_192,3333 N Central Ave,Phoenix,AZ,85012
+mock_place_193,3333 K St NW,Washington,DC,20007
+mock_place_194,3333 Buford Dr,Buford,GA,30519
+mock_place_195,3333 Piedmont Rd,Atlanta,GA,30305
+mock_place_196,2345 Main St,Houston,TX,77002
+mock_place_197,2345 Grand Ave,Kansas City,MO,64108
+mock_place_198,2345 Broadway,New York,NY,10024
+mock_place_199,2345 Lake Shore Dr,Chicago,IL,60657
+mock_place_200,2345 University Ave,Berkeley,CA,94704
+mock_place_201,3456 Wilshire Blvd,Los Angeles,CA,90010
+mock_place_202,3456 N Campbell Ave,Tucson,AZ,85719
+mock_place_203,3456 Magazine St,New Orleans,LA,70115
+mock_place_204,3456 Peachtree Rd,Atlanta,GA,30319
+mock_place_205,3456 S State St,Salt Lake City,UT,84115
+mock_place_206,4567 Main St,Philadelphia,PA,19127
+mock_place_207,4567 W Sunset Blvd,Los Angeles,CA,90027
+mock_place_208,4567 N Lincoln Ave,Chicago,IL,60625
+mock_place_209,4567 Broadway,Denver,CO,80216
+mock_place_210,4567 California St,San Francisco,CA,94118
+mock_place_211,5678 Geary Blvd,San Francisco,CA,94121
+mock_place_212,5678 Telegraph Ave,Oakland,CA,94609
+mock_place_213,5678 Forbes Ave,Pittsburgh,PA,15217
+mock_place_214,5678 N Western Ave,Chicago,IL,60659
+mock_place_215,5678 W Lovers Ln,Dallas,TX,75209
+mock_place_216,6789 Eastside Dr,Austin,TX,78752
+mock_place_217,6789 South St,Philadelphia,PA,19143
+mock_place_218,6789 Sunset Blvd,Los Angeles,CA,90028
+mock_place_219,6789 Mission St,Daly City,CA,94014
+mock_place_220,6789 N Oracle Rd,Tucson,AZ,85704
+mock_place_221,7890 E Belleview Ave,Denver,CO,80111
+mock_place_222,7890 Corporate Dr,Baltimore,MD,21236
+mock_place_223,7890 Ritchie Hwy,Glen Burnie,MD,21061
+mock_place_224,7890 W Alameda Ave,Lakewood,CO,80226
+mock_place_225,7890 S University Blvd,Centennial,CO,80122
+mock_place_226,2000 Broadway,New York,NY,10023
+mock_place_227,2000 Avenue of the Stars,Los Angeles,CA,90067
+mock_place_228,2000 M St NW,Washington,DC,20036
+mock_place_229,2000 N Classen Blvd,Oklahoma City,OK,73106
+mock_place_230,2000 E Rio Salado Pkwy,Tempe,AZ,85281
+mock_place_231,3000 Sand Hill Rd,Menlo Park,CA,94025
+mock_place_232,3000 Connecticut Ave,Washington,DC,20008
+mock_place_233,3000 Town Center,Southfield,MI,48075
+mock_place_234,3000 Northwoods Pkwy,Norcross,GA,30071
+mock_place_235,3000 E 1st Ave,Denver,CO,80206
+mock_place_236,4000 E Sky Harbor Blvd,Phoenix,AZ,85034
+mock_place_237,4000 Hollywood Blvd,Hollywood,FL,33021
+mock_place_238,4000 Ponce de Leon Blvd,Coral Gables,FL,33146
+mock_place_239,4000 Cathedral Ave,Washington,DC,20016
+mock_place_240,4000 Central Florida Pkwy,Orlando,FL,32837
+mock_place_241,5000 Forbes Ave,Pittsburgh,PA,15213
+mock_place_242,5000 S 5th Ave,Ridgefield Park,NJ,07660
+mock_place_243,5000 Birch St,Newport Beach,CA,92660
+mock_place_244,5000 W 115th St,Overland Park,KS,66211
+mock_place_245,5000 Executive Pkwy,San Ramon,CA,94583
+mock_place_246,6000 J St,Sacramento,CA,95819
+mock_place_247,6000 Universal Blvd,Orlando,FL,32819
+mock_place_248,6000 Sepulveda Blvd,Culver City,CA,90230
+mock_place_249,6000 Fairview Rd,Charlotte,NC,28210
+mock_place_250,6000 W Olive Ave,Glendale,AZ,85302
+mock_place_251,7000 Central Pkwy,Atlanta,GA,30328
+mock_place_252,7000 Coliseum Way,Oakland,CA,94621
+mock_place_253,7000 E Mayo Blvd,Phoenix,AZ,85054
+mock_place_254,7000 NW Prairie View Rd,Kansas City,MO,64151
+mock_place_255,7000 E Shea Blvd,Scottsdale,AZ,85254
+mock_place_256,8000 Towers Crescent Dr,Vienna,VA,22182
+mock_place_257,8000 W Sunrise Blvd,Plantation,FL,33322
+mock_place_258,8000 York Rd,Towson,MD,21252
+mock_place_259,8000 E Belleview Ave,Denver,CO,80111
+mock_place_260,8000 S Federal Way,Boise,ID,83716
+mock_place_261,9000 Ming Ave,Bakersfield,CA,93311
+mock_place_262,9000 Crow Canyon Rd,Danville,CA,94506
+mock_place_263,9000 Rockville Pike,Bethesda,MD,20814
+mock_place_264,9000 W Sahara Ave,Las Vegas,NV,89117
+mock_place_265,9000 Lake Underhill Rd,Orlando,FL,32825
+mock_place_266,300 E Randolph St,Chicago,IL,60601
+mock_place_267,300 Alamo Plaza,San Antonio,TX,78205
+mock_place_268,300 Delaware Ave,Wilmington,DE,19801
+mock_place_269,300 S Grand Ave,Los Angeles,CA,90071
+mock_place_270,300 Nicollet Mall,Minneapolis,MN,55401
+mock_place_271,400 S Hope St,Los Angeles,CA,90071
+mock_place_272,400 Capitol Mall,Sacramento,CA,95814
+mock_place_273,400 W Market St,Louisville,KY,40202
+mock_place_274,400 N St Paul St,Dallas,TX,75201
+mock_place_275,400 E Pratt St,Baltimore,MD,21202
+mock_place_276,500 W Madison St,Chicago,IL,60661
+mock_place_277,500 Terry Francois Blvd,San Francisco,CA,94158
+mock_place_278,500 Boylston St,Boston,MA,02116
+mock_place_279,500 Pearl St,Buffalo,NY,14202
+mock_place_280,500 SE Main St,Portland,OR,97214
+mock_place_281,600 S Spring St,Los Angeles,CA,90014
+mock_place_282,600 Atlantic Ave,Boston,MA,02210
+mock_place_283,600 N Pearl St,Dallas,TX,75201
+mock_place_284,600 E Grand Ave,Des Moines,IA,50309
+mock_place_285,600 Superior Ave,Cleveland,OH,44114
+mock_place_286,700 W St Clair Ave,Cleveland,OH,44113
+mock_place_287,700 Pennsylvania Ave,Pittsburgh,PA,15233
+mock_place_288,700 Exposition Park Dr,Los Angeles,CA,90037
+mock_place_289,700 E Main St,Richmond,VA,23219
+mock_place_290,700 N Milwaukee St,Milwaukee,WI,53202
+mock_place_291,800 Grant St,Denver,CO,80203
+mock_place_292,800 N Glebe Rd,Arlington,VA,22203
+mock_place_293,800 W Olympic Blvd,Los Angeles,CA,90015
+mock_place_294,800 N Capitol St,Washington,DC,20002
+mock_place_295,800 Nicollet Mall,Minneapolis,MN,55402
+mock_place_296,900 E Hamilton Ave,Campbell,CA,95008
+mock_place_297,900 W Trade St,Charlotte,NC,28202
+mock_place_298,900 E Market St,Louisville,KY,40206
+mock_place_299,900 Congress Ave,Austin,TX,78701
+mock_place_300,900 Biscayne Blvd,Miami,FL,33132
+mock_place_301,1 Main St,New York,NY,10044
+mock_place_302,1 Market St,San Francisco,CA,94105
+mock_place_303,1 Federal St,Boston,MA,02110
+mock_place_304,1 Lincoln Center,New York,NY,10023
+mock_place_305,1 Faneuil Hall,Boston,MA,02109
+mock_place_306,2 Wall St,New York,NY,10005
+mock_place_307,2 Embarcadero Ctr,San Francisco,CA,94111
+mock_place_308,2 Park Ave,New York,NY,10016
+mock_place_309,2 Commonwealth Ave,Boston,MA,02116
+mock_place_310,2 S Biscayne Blvd,Miami,FL,33131
+mock_place_311,3 World Trade Center,New York,NY,10048
+mock_place_312,3 Embarcadero Ctr,San Francisco,CA,94111
+mock_place_313,3 Columbus Cir,New York,NY,10019
+mock_place_314,3 Centerpointe Dr,Lake Oswego,OR,97035
+mock_place_315,3 Bethesda Metro Center,Bethesda,MD,20814
+mock_place_316,4 World Trade Center,New York,NY,10007
+mock_place_317,4 Embarcadero Ctr,San Francisco,CA,94111
+mock_place_318,4 Park Ave,New York,NY,10016
+mock_place_319,4 Copley Pl,Boston,MA,02116
+mock_place_320,4 Pennsylvania Plaza,New York,NY,10001
+mock_place_321,5 Times Square,New York,NY,10036
+mock_place_322,5 Embarcadero Ctr,San Francisco,CA,94111
+mock_place_323,5 Bryant Park,New York,NY,10018
+mock_place_324,5 Faneuil Hall,Boston,MA,02109
+mock_place_325,5 N Wabash Ave,Chicago,IL,60602
+mock_place_326,11 Broadway,New York,NY,10004
+mock_place_327,11 Beacon St,Boston,MA,02108
+mock_place_328,11 S LaSalle St,Chicago,IL,60603
+mock_place_329,11 Greenway Plaza,Houston,TX,77046
+mock_place_330,11 W 42nd St,New York,NY,10036
+mock_place_331,22 Cortlandt St,New York,NY,10007
+mock_place_332,22 W Monroe St,Chicago,IL,60603
+mock_place_333,22 Battery St,San Francisco,CA,94111
+mock_place_334,22 Thomson Pl,Boston,MA,02210
+mock_place_335,22 E Washington St,Indianapolis,IN,46204
+mock_place_336,33 Maiden Ln,San Francisco,CA,94108
+mock_place_337,33 Liberty St,New York,NY,10045
+mock_place_338,33 W Monroe St,Chicago,IL,60603
+mock_place_339,33 Arch St,Boston,MA,02110
+mock_place_340,33 Peachtree St,Atlanta,GA,30303
+mock_place_341,44 Montgomery St,San Francisco,CA,94104
+mock_place_342,44 Wall St,New York,NY,10005
+mock_place_343,44 School St,Boston,MA,02108
+mock_place_344,44 S Broadway,White Plains,NY,10601
+mock_place_345,44 Tehama St,San Francisco,CA,94105
+mock_place_346,55 Water St,New York,NY,10041
+mock_place_347,55 2nd St,San Francisco,CA,94105
+mock_place_348,55 E Monroe St,Chicago,IL,60603
+mock_place_349,55 Fruit St,Boston,MA,02114
+mock_place_350,55 Public Square,Cleveland,OH,44113
+mock_place_351,66 Hudson Blvd,Jersey City,NJ,07302
+mock_place_352,66 Bovet Rd,San Mateo,CA,94402
+mock_place_353,66 Long Wharf,Boston,MA,02110
+mock_place_354,66 S 6th St,Minneapolis,MN,55402
+mock_place_355,66 E Wacker Pl,Chicago,IL,60601
+mock_place_356,77 Water St,New York,NY,10005
+mock_place_357,77 Beale St,San Francisco,CA,94105
+mock_place_358,77 Summer St,Boston,MA,02110
+mock_place_359,77 W Washington St,Chicago,IL,60602
+mock_place_360,77 City Centre Dr,Mississauga,ON,L5B1M5
+mock_place_361,88 Pine St,New York,NY,10005
+mock_place_362,88 Kearny St,San Francisco,CA,94108
+mock_place_363,88 Black Falcon Ave,Boston,MA,02210
+mock_place_364,88 E Broad St,Columbus,OH,43215
+mock_place_365,88 University Pl,Pittsburgh,PA,15260
+mock_place_366,99 High St,Boston,MA,02110
+mock_place_367,99 Hudson St,New York,NY,10013
+mock_place_368,99 Bishopsgate,London,UK,EC2M3XD
+mock_place_369,99 Almaden Blvd,San Jose,CA,95113
+mock_place_370,99 Church St,New York,NY,10007
+mock_place_371,250 W 57th St,New York,NY,10107
+mock_place_372,250 Montgomery St,San Francisco,CA,94104
+mock_place_373,250 E Broad St,Columbus,OH,43215
+mock_place_374,250 Joralemon St,Brooklyn,NY,11201
+mock_place_375,250 N Rock Rd,Wichita,KS,67206
+mock_place_376,350 5th Ave,New York,NY,10118
+mock_place_377,350 Mission St,San Francisco,CA,94105
+mock_place_378,350 Massachusetts Ave,Cambridge,MA,02139
+mock_place_379,350 S Grand Ave,Los Angeles,CA,90071
+mock_place_380,350 E Cermak Rd,Chicago,IL,60616
+mock_place_381,450 Lexington Ave,New York,NY,10017
+mock_place_382,450 Golden Gate Ave,San Francisco,CA,94102
+mock_place_383,450 N Cityfront Plaza Dr,Chicago,IL,60611
+mock_place_384,450 E Las Olas Blvd,Fort Lauderdale,FL,33301
+mock_place_385,450 W 33rd St,New York,NY,10001
+mock_place_386,550 Madison Ave,New York,NY,10022
+mock_place_387,550 S Hope St,Los Angeles,CA,90071
+mock_place_388,550 Terry Francois Blvd,San Francisco,CA,94158
+mock_place_389,550 Kearny St,San Francisco,CA,94108
+mock_place_390,550 W Washington Blvd,Chicago,IL,60661
+mock_place_391,650 California St,San Francisco,CA,94108
+mock_place_392,650 5th Ave,New York,NY,10019
+mock_place_393,650 Town Center Dr,Costa Mesa,CA,92626
+mock_place_394,650 S Grand Ave,Los Angeles,CA,90017
+mock_place_395,650 Capitol Mall,Sacramento,CA,95814
+mock_place_396,750 7th Ave,New York,NY,10019
+mock_place_397,750 Battery St,San Francisco,CA,94111
+mock_place_398,750 N St Paul St,Dallas,TX,75201
+mock_place_399,750 W John Carpenter Fwy,Irving,TX,75039
+mock_place_400,750 E Pratt St,Baltimore,MD,21202
+mock_place_401,850 3rd Ave,New York,NY,10022
+mock_place_402,850 Montgomery St,San Francisco,CA,94133
+mock_place_403,850 N Lake Shore Dr,Chicago,IL,60611
+mock_place_404,850 Cherry Ave,San Bruno,CA,94066
+mock_place_405,850 New Burton Rd,Dover,DE,19904
+mock_place_406,950 3rd Ave,New York,NY,10022
+mock_place_407,950 Tower Ln,Foster City,CA,94404
+mock_place_408,950 W Bannock St,Boise,ID,83702
+mock_place_409,950 N Meridian St,Indianapolis,IN,46204
+mock_place_410,950 N Michigan Ave,Chicago,IL,60611
+mock_place_411,12 E 49th St,New York,NY,10017
+mock_place_412,12 S 12th St,Philadelphia,PA,19107
+mock_place_413,12 Faneuil Hall,Boston,MA,02109
+mock_place_414,12 Desbrosses St,New York,NY,10013
+mock_place_415,12 S 1st St,San Jose,CA,95113
+mock_place_416,23 Wall St,New York,NY,10005
+mock_place_417,23 Geary St,San Francisco,CA,94108
+mock_place_418,23 Main St,Hackensack,NJ,07601
+mock_place_419,23 Milk St,Boston,MA,02109
+mock_place_420,23 S Wabash Ave,Chicago,IL,60603
+mock_place_421,34 E 51st St,New York,NY,10022
+mock_place_422,34 Peachtree St,Atlanta,GA,30303
+mock_place_423,34 Commerce St,Newark,NJ,07102
+mock_place_424,34 Beacon St,Boston,MA,02108
+mock_place_425,34 N Franklin St,Chicago,IL,60610
+mock_place_426,45 Rockefeller Plaza,New York,NY,10111
+mock_place_427,45 Fremont St,San Francisco,CA,94105
+mock_place_428,45 Milk St,Boston,MA,02109
+mock_place_429,45 W 45th St,New York,NY,10036
+mock_place_430,45 S 7th St,Minneapolis,MN,55402
+mock_place_431,56 Marietta St,Atlanta,GA,30303
+mock_place_432,56 Pine St,New York,NY,10005
+mock_place_433,56 Roland St,Boston,MA,02129
+mock_place_434,56 W Randolph St,Chicago,IL,60601
+mock_place_435,56 E San Fernando St,San Jose,CA,95113
+mock_place_436,67 Wall St,New York,NY,10005
+mock_place_437,67 Yesler Way,Seattle,WA,98104
+mock_place_438,67 Market St,Waltham,MA,02451
+mock_place_439,67 Broad St,Boston,MA,02109
+mock_place_440,67 E Madison St,Chicago,IL,60603
+mock_place_441,78 John St,New York,NY,10038
+mock_place_442,78 SW 7th St,Miami,FL,33130
+mock_place_443,78 Summer St,Boston,MA,02110
+mock_place_444,78 Washington St,Hoboken,NJ,07030
+mock_place_445,78 5th Ave,New York,NY,10011
+mock_place_446,89 South St,New York,NY,10038
+mock_place_447,89 Marion St,Seattle,WA,98104
+mock_place_448,89 Broad St,Boston,MA,02110
+mock_place_449,89 E Madison St,Chicago,IL,60602
+mock_place_450,89 Headquarters Plaza,Morristown,NJ,07960
+mock_place_451,4444 N Central Expy,Dallas,TX,75205
+mock_place_452,4444 Geary Blvd,San Francisco,CA,94118
+mock_place_453,4444 W Sunset Blvd,Los Angeles,CA,90029
+mock_place_454,4444 E Camelback Rd,Phoenix,AZ,85018
+mock_place_455,4444 S 27th St,Milwaukee,WI,53221
+mock_place_456,5555 Morningside Dr,Houston,TX,77005
+mock_place_457,5555 N Lamar Blvd,Austin,TX,78751
+mock_place_458,5555 DTC Pkwy,Greenwood Village,CO,80111
+mock_place_459,5555 Glenridge Connector,Atlanta,GA,30342
+mock_place_460,5555 Wisconsin Ave,Chevy Chase,MD,20815
+mock_place_461,6666 Odana Rd,Madison,WI,53719
+mock_place_462,6666 SW Fwy,Houston,TX,77074
+mock_place_463,6666 E Hampden Ave,Denver,CO,80224
+mock_place_464,6666 Baltimore National Pike,Baltimore,MD,21228
+mock_place_465,6666 Arlington Blvd,Falls Church,VA,22042
+mock_place_466,7777 Bonhomme Ave,Clayton,MO,63105
+mock_place_467,7777 Leesburg Pike,Falls Church,VA,22043
+mock_place_468,7777 Forest Ln,Dallas,TX,75230
+mock_place_469,7777 E Hampden Ave,Denver,CO,80231
+mock_place_470,7777 Greenback Ln,Citrus Heights,CA,95610
+mock_place_471,8888 Keystone Crossing,Indianapolis,IN,46240
+mock_place_472,8888 University Blvd,Moon Township,PA,15108
+mock_place_473,8888 Georgia Ave,Silver Spring,MD,20910
+mock_place_474,8888 N Stemmons Fwy,Dallas,TX,75247
+mock_place_475,8888 Clairemont Mesa Blvd,San Diego,CA,92123
+mock_place_476,9999 Bellaire Blvd,Houston,TX,77036
+mock_place_477,9999 S Eastern Ave,Las Vegas,NV,89183
+mock_place_478,9999 Wilshire Blvd,Beverly Hills,CA,90210
+mock_place_479,9999 N Capital of Texas Hwy,Austin,TX,78759
+mock_place_480,9999 SW Freeway,Houston,TX,77074

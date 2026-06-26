@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+    <PackageReference Include="Mindfire.EFRepository" Version="2.5.0" />
+    <PackageReference Include="Riok.Mapperly" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMFlow.Admin\FMFlow.Admin.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Data\FMFlow.Data.csproj" />
+    <ProjectReference Include="..\FMFlow.Entities\FMFlow.Entities.csproj" />
+    <ProjectReference Include="..\FMFlow.Identity\FMFlow.Identity.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.ProUser\FMFlow.ProUser.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

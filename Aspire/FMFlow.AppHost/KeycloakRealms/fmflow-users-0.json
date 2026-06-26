@@ -1,0 +1,63 @@
+{
+  "realm" : "fmflow",
+  "users" : [ {
+    "id" : "a760c3b8-f638-4a46-99b9-bcb381709762",
+    "username" : "service-account-chat_bot",
+    "emailVerified" : false,
+    "createdTimestamp" : 1760563715801,
+    "enabled" : true,
+    "totp" : false,
+    "serviceAccountClientId" : "chat_bot",
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "chatbot", "default-roles-fmflow" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "a5496df5-d1ca-4b9d-b354-463ae9a2ef3c",
+    "username" : "service-account-fm-flow-api",
+    "emailVerified" : false,
+    "createdTimestamp" : 1759878455996,
+    "enabled" : true,
+    "totp" : false,
+    "serviceAccountClientId" : "fm-flow-api",
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-fmflow" ],
+    "clientRoles" : {
+      "fm-flow-api" : [ "uma_protection" ],
+      "realm-management" : [ "manage-users", "manage-realm" ],
+      "broker" : [ "read-token" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "5b563eed-634f-4151-a3a3-1b91b1e8d1f1",
+    "username" : "superadmin@test.com",
+    "firstName" : "Super Admin",
+    "lastName" : "Test",
+    "email" : "superadmin@test.com",
+    "emailVerified" : false,
+    "attributes" : {
+      "external_id" : [ "1" ]
+    },
+    "createdTimestamp" : 1759888810135,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "976c9219-7696-498c-8cd1-709938151f5d",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1759888852400,
+      "secretData" : "{\"value\":\"YfIcTshPPyKp1aKQXyb+SSCV2FSJqjZsRHoZw3f3X8Q=\",\"salt\":\"bkGVMNsS4sE2tM0riVgPgw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-fmflow", "superadmin" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}

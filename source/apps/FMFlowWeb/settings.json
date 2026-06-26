@@ -1,0 +1,17 @@
+{
+	"apiUrl": "https://localhost:7006/api",
+	"recaptchaSiteKey": "YOUR_RECAPTCHA_SITE_KEY",
+	"recaptchaSecretKey": "YOUR_RECAPTCHA_SECRET_KEY",
+	"googleAnalyticsId": "G-1234567890",
+	"googleTagManagerId": "GTM-1234567890",
+	"googleTagManagerScript": "https://www.googletagmanager.com/gtag/js?id=GTM-1234567890",
+	"googleTagManagerScriptAsync": "https://www.googletagmanager.com/gtag/js?id=GTM-1234567890&async=true",
+	"firebaseConfig": {
+		"apiKey": "YOUR_FIREBASE_API_KEY",
+		"authDomain": "fmflow-guru.firebaseapp.com",
+		"projectId": "fmflow-guru",
+		"storageBucket": "fmflow-guru.firebasestorage.app",
+		"messagingSenderId": "470153925255",
+		"appId": "1:470153925255:web:390d3cc2d8155dda65de22"
+	}
+}

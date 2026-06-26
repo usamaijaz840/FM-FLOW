@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <None Remove="Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMFlow.Entities\FMFlow.Entities.csproj" />
+    <ProjectReference Include="..\FMFlow.FlowAPI.Interface\FMFlow.FlowAPI.Interface.csproj" />
+	<ProjectReference Include="..\FMFlow.Files.Interface\FMFlow.Files.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Pro.Interface\FMFlow.Pro.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Riok.Mapperly" Version="4.2.1" />
+  </ItemGroup>
+
+</Project>

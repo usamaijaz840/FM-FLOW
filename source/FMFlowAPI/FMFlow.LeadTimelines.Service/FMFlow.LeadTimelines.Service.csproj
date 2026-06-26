@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EFRepository" Version="1.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMFlow.AccessValidation\FMFlow.AccessValidation.csproj" />
+    <ProjectReference Include="..\FMFlow.Common\FMFlow.Common.csproj" />
+    <ProjectReference Include="..\FMFlow.Entities\FMFlow.Entities.csproj" />
+    <ProjectReference Include="..\FMFlow.FlowAPI.Interface\FMFlow.FlowAPI.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.LeadTimelines.Interface\FMFlow.LeadTimelines.Interface.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Mapper\" />
+  </ItemGroup>
+
+</Project>

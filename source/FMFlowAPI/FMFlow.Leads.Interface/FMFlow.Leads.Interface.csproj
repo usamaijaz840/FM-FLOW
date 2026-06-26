@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMFlow.Common\FMFlow.Common.csproj" />
+    <ProjectReference Include="..\FMFlow.Entities\FMFlow.Entities.csproj" />
+    <ProjectReference Include="..\FMFlow.Estimates.Interface\FMFlow.Estimates.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.FlowAPI.Interface\FMFlow.FlowAPI.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Identity\FMFlow.Identity.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.LeadTimelines.Interface\FMFlow.LeadTimelines.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Projects.Interface\FMFlow.Projects.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

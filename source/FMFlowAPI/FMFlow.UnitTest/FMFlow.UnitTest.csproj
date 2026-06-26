@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.14.2" />
+    <PackageReference Include="coverlet.collector" Version="6.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="FakeItEasy" Version="8.3.0" />
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="14.9.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="9.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.10" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.0" />
+    <PackageReference Include="Mindfire.EFRepository" Version="2.5.0" />
+    <PackageReference Include="MockQueryable.FakeItEasy" Version="7.0.3" />
+    <PackageReference Include="Shouldly" Version="4.3.0" />
+    <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMFlow.AccessValidation\FMFlow.AccessValidation.csproj" />
+    <ProjectReference Include="..\FMFlow.Admin.Service\FMFlow.Admin.Service.csproj" />
+    <ProjectReference Include="..\FMFlow.Admin\FMFlow.Admin.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Customers.Service\FMFlow.Customers.Service.csproj" />
+    <ProjectReference Include="..\FMFlow.Employees.Interface\FMFlow.Employees.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Employees.Service\FMFlow.Employees.Service.csproj" />
+    <ProjectReference Include="..\FMFlow.Entities\FMFlow.Entities.csproj" />
+    <ProjectReference Include="..\FMFlow.Estimates.Interface\FMFlow.Estimates.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Estimates.Service\FMFlow.Estimates.Service.csproj" />
+    <ProjectReference Include="..\FMFlow.Events.Interface\FMFlow.Events.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Events.Service\FMFlow.Events.Service.csproj" />
+    <ProjectReference Include="..\FMFlow.Identity.Service\FMFlow.Identity.Service.csproj" />
+    <ProjectReference Include="..\FMFlow.Identity\FMFlow.Identity.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Login.Service\FMFlow.Login.Service.csproj" />
+    <ProjectReference Include="..\FMFlow.Payment.Service\FMFlow.ProPayments.Service.csproj" />
+    <ProjectReference Include="..\FMFlow.Payment\FMFlow.ProPayments.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Projects.Interface\FMFlow.Projects.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Projects.Service\FMFlow.Projects.Service.csproj" />
+	  <ProjectReference Include="..\FMFlow.Integrations.Service\FMFlow.Integrations.Service.csproj" />
+	  <ProjectReference Include="..\FMFlow.Integrations.Interface\FMFlow.Integrations.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Referral\FMFlow.Referral.Interface.csproj" />
+    <ProjectReference Include="..\FMFlowAPI\FMFlowAPI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="appsettings.test.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

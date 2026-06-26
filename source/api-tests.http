@@ -1,0 +1,85 @@
+@baseUrl = http://localhost:5000
+@authToken = your_auth_token_here
+
+### Health Check
+GET {{baseUrl}}/api/health
+Accept: application/json
+
+### Login
+POST {{baseUrl}}/api/login
+Content-Type: application/json
+
+{
+    "email": "your.email@example.com",
+    "password": "your_password"
+}
+
+### Search Projects
+GET {{baseUrl}}/api/Projects?pageIndex=0&pageSize=10
+Authorization: Bearer {{authToken}}
+Accept: application/json
+
+### Create Project
+POST {{baseUrl}}/api/Projects
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+    "leadID": 1,
+    "name": "Test Project",
+    "description": "This is a test project"
+}
+
+### Get States
+GET {{baseUrl}}/api/States
+Accept: application/json
+
+### Get Counties for a State
+GET {{baseUrl}}/api/States/CA/counties
+Accept: application/json
+
+### Get Time Zones
+GET {{baseUrl}}/api/TimeZones
+Accept: application/json
+
+### Create Lead
+POST {{baseUrl}}/api/Leads
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890",
+    "address": "123 Main St",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zipCode": "90001",
+    "customerType": "Residential"
+}
+
+### Search Leads
+GET {{baseUrl}}/api/Leads?keywordSearch=john&pageIndex=0&pageSize=10
+Authorization: Bearer {{authToken}}
+Accept: application/json
+
+### Get Lead by ID
+GET {{baseUrl}}/api/Leads/1
+Authorization: Bearer {{authToken}}
+Accept: application/json
+
+### Get Lead Notes
+GET {{baseUrl}}/api/Leads/1/Notes?pageIndex=0&pageSize=10
+Authorization: Bearer {{authToken}}
+Accept: application/json
+
+### Create Lead Note
+POST {{baseUrl}}/api/Leads/1/Notes
+Authorization: Bearer {{authToken}}
+Content-Type: application/json
+
+{
+    "content": "This is a test note for the lead",
+    "isPrivate": false
+}

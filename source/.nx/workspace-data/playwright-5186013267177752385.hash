@@ -1,0 +1,369 @@
+{
+  "848853764585137012": {
+    "targets": {
+      "e2e": {
+        "command": "playwright test",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests",
+          "help": {
+            "command": "npx playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "parallelism": false,
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-results",
+          "{projectRoot}/playwright-report"
+        ]
+      },
+      "e2e-ci--tests/e2e/login-redirect.spec.ts": {
+        "command": "playwright test tests/e2e/login-redirect.spec.ts --output=test-results\\tests-e2e-login-redirect-spec-ts",
+        "options": {
+          "cwd": "{projectRoot}",
+          "env": {
+            "PLAYWRIGHT_HTML_OUTPUT_DIR": "playwright-report\\tests-e2e-login-redirect-spec-ts",
+            "PLAYWRIGHT_HTML_REPORT": "playwright-report\\tests-e2e-login-redirect-spec-ts"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/e2e/login-redirect.spec.ts in CI",
+          "help": {
+            "command": "npx playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "parallelism": false,
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-results/tests-e2e-login-redirect-spec-ts",
+          "{projectRoot}/playwright-report/tests-e2e-login-redirect-spec-ts"
+        ]
+      },
+      "e2e-ci--tests/e2e/onboarding.spec.ts": {
+        "command": "playwright test tests/e2e/onboarding.spec.ts --output=test-results\\tests-e2e-onboarding-spec-ts",
+        "options": {
+          "cwd": "{projectRoot}",
+          "env": {
+            "PLAYWRIGHT_HTML_OUTPUT_DIR": "playwright-report\\tests-e2e-onboarding-spec-ts",
+            "PLAYWRIGHT_HTML_REPORT": "playwright-report\\tests-e2e-onboarding-spec-ts"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in tests/e2e/onboarding.spec.ts in CI",
+          "help": {
+            "command": "npx playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "parallelism": false,
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-results/tests-e2e-onboarding-spec-ts",
+          "{projectRoot}/playwright-report/tests-e2e-onboarding-spec-ts"
+        ]
+      },
+      "e2e-ci": {
+        "executor": "nx:noop",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/test-results",
+          "{projectRoot}/playwright-report"
+        ],
+        "dependsOn": [
+          {
+            "target": "e2e-ci--tests/e2e/login-redirect.spec.ts",
+            "projects": "self",
+            "params": "forward",
+            "options": "forward"
+          },
+          {
+            "target": "e2e-ci--tests/e2e/onboarding.spec.ts",
+            "projects": "self",
+            "params": "forward",
+            "options": "forward"
+          }
+        ],
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in CI",
+          "nonAtomizedTarget": "e2e",
+          "help": {
+            "command": "npx playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "parallelism": false
+      },
+      "e2e-ci--merge-reports": {
+        "executor": "@nx/playwright:merge-reports",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/playwright-report"
+        ],
+        "options": {
+          "config": "playwright.config.ts",
+          "expectedSuites": 2
+        },
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Merges Playwright blob reports from atomized tasks to produce unified reports for the configured reporters."
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "E2E (CI)": [
+          "e2e-ci--tests/e2e/login-redirect.spec.ts",
+          "e2e-ci--tests/e2e/onboarding.spec.ts",
+          "e2e-ci",
+          "e2e-ci--merge-reports"
+        ]
+      }
+    }
+  },
+  "8642122861206363397": {
+    "targets": {
+      "e2e": {
+        "command": "playwright test",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests",
+          "help": {
+            "command": "npx playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "dependsOn": [
+          {
+            "projects": [
+              "@fm-flow/referral-flow"
+            ],
+            "target": "vite"
+          }
+        ],
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/.playwright/apps/referral-flow-e2e/test-output",
+          "{workspaceRoot}/dist/.playwright/apps/referral-flow-e2e/playwright-report"
+        ]
+      },
+      "e2e-ci--src/example.spec.ts": {
+        "command": "playwright test src/example.spec.ts --output=..\\..\\dist\\.playwright\\apps\\referral-flow-e2e\\test-output\\src-example-spec-ts",
+        "options": {
+          "cwd": "{projectRoot}",
+          "env": {
+            "PLAYWRIGHT_HTML_OUTPUT_DIR": "..\\..\\dist\\.playwright\\apps\\referral-flow-e2e\\playwright-report\\src-example-spec-ts",
+            "PLAYWRIGHT_HTML_REPORT": "..\\..\\dist\\.playwright\\apps\\referral-flow-e2e\\playwright-report\\src-example-spec-ts"
+          }
+        },
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in src/example.spec.ts in CI",
+          "help": {
+            "command": "npx playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "dependsOn": [
+          {
+            "projects": [
+              "@fm-flow/referral-flow"
+            ],
+            "target": "vite"
+          }
+        ],
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/.playwright/apps/referral-flow-e2e/test-output/src-example-spec-ts",
+          "{workspaceRoot}/dist/.playwright/apps/referral-flow-e2e/playwright-report/src-example-spec-ts"
+        ]
+      },
+      "e2e-ci": {
+        "executor": "nx:noop",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/.playwright/apps/referral-flow-e2e/test-output",
+          "{workspaceRoot}/dist/.playwright/apps/referral-flow-e2e/playwright-report"
+        ],
+        "dependsOn": [
+          {
+            "target": "e2e-ci--src/example.spec.ts",
+            "projects": "self",
+            "params": "forward",
+            "options": "forward"
+          }
+        ],
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in CI",
+          "nonAtomizedTarget": "e2e",
+          "help": {
+            "command": "npx playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        }
+      },
+      "e2e-ci--merge-reports": {
+        "executor": "@nx/playwright:merge-reports",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/dist/.playwright/apps/referral-flow-e2e/playwright-report"
+        ],
+        "options": {
+          "config": "playwright.config.ts",
+          "expectedSuites": 1
+        },
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Merges Playwright blob reports from atomized tasks to produce unified reports for the configured reporters."
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "E2E (CI)": [
+          "e2e-ci--src/example.spec.ts",
+          "e2e-ci",
+          "e2e-ci--merge-reports"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FMFlow.AccessValidation\FMFlow.AccessValidation.csproj" />
+    <ProjectReference Include="..\FMFlow.Data\FMFlow.Data.csproj" />
+    <ProjectReference Include="..\FMFlow.Email.Interface\FMFlow.Email.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Entities\FMFlow.Entities.csproj" />
+    <ProjectReference Include="..\FMFlow.Estimates.Interface\FMFlow.Estimates.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Files.Interface\FMFlow.Files.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.FlowAPI.Interface\FMFlow.FlowAPI.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.Leads.Interface\FMFlow.Leads.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.LeadTimelines.Interface\FMFlow.LeadTimelines.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.ProUser\FMFlow.ProUser.Interface.csproj" />
+    <ProjectReference Include="..\FMFlow.SMS.Service\FMFlow.SMS.Service.csproj" />
+    <ProjectReference Include="..\FMFlow.Transactions.Interface\FMFlow.Transactions.Interface.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AWSSDK.S3" Version="4.0.0.6" />
+		<PackageReference Include="Dapper" Version="2.1.66" />
+		<PackageReference Include="FluentValidation" Version="12.0.0" />
+		<PackageReference Include="Mindfire.EFRepository" Version="2.5.0" />
+		<PackageReference Include="Riok.Mapperly" Version="4.2.1" />
+	</ItemGroup>
+	
+</Project>
